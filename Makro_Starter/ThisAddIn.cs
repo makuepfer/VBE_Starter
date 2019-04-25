@@ -13,6 +13,7 @@ namespace Makro_Starter
     {
         private void ThisAddIn_Startup(object sender, System.EventArgs e)
         {
+            Globals.ThisAddIn.Application.ShowVisualBasicEditor = true;
         }
 
         private void ThisAddIn_Shutdown(object sender, System.EventArgs e)
