@@ -159,6 +159,12 @@
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="WordRibbon.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WordRibbon.Designer.cs">
+      <DependentUpon>WordRibbon.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -168,6 +174,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="WordRibbon.resx">
+      <DependentUpon>WordRibbon.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Makro_Starter_TemporaryKey.pfx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -199,7 +208,7 @@
     <ManifestKeyFile>Makro_Starter_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>888112B6478C1ECBF4EFD2597087A147EBF6E32C</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>1B2AB8E35CE6FD9891509D5EE50686BA3D08C64C</ManifestCertificateThumbprint>
   </PropertyGroup>
   <!-- Include the build rules for a C# project. -->
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
